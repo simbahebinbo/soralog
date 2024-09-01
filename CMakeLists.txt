@@ -41,7 +41,7 @@ include(${CMAKE_TOOLCHAIN_FILE})
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 option(TESTING      "Build tests"                                 ON)
-option(EXAMPLES     "Build examples"                              ON)
+option(EXAMPLES     "Build examples"                              OFF)
 option(CLANG_FORMAT "Enable clang-format target"                  OFF)
 option(CLANG_TIDY   "Enable clang-tidy checks during compilation" OFF)
 option(COVERAGE     "Enable generation of coverage info"          OFF)
